@@ -24,6 +24,6 @@ npm run build
 Vue Js ver.3 + Tailwind CSS + Pinia State
 ```
 ```sh
-I make this project 
+This project was created as learning material for me by implementing what I have learned about.
 ```
 
