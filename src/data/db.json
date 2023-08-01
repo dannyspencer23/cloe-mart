@@ -1,0 +1,481 @@
+{
+  "allItems": [
+    {
+      "id": "1",
+      "title": "sania",
+      "kelompok": "beras",
+      "deskripsi": "Beras pulen premium, teknologi jepang diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami.",
+      "volume": "5-kg",
+      "harga": 64000,
+      "img": "/img/sania.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "2",
+      "title": "keluarga bijak",
+      "kelompok": "beras",
+      "deskripsi": "Beras Keluarga bijak adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": "5-kg",
+      "harga": 64000,
+      "img": "img/keluargaBijak.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "3",
+      "title": "anak raja",
+      "kelompok": "beras",
+      "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan 3kg. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": "3-kg",
+      "harga": 40000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "4",
+      "title": "anak raja",
+      "kelompok": "beras",
+      "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan -. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": "5-kg",
+      "harga": 64000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "5",
+      "title": "anak raja",
+      "kelompok": "beras",
+      "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan 10kg. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": " 10-kg",
+      "harga": 140000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "6",
+      "title": "setra wangi",
+      "kelompok": "beras",
+      "deskripsi": "Beras Setra wangi adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": "5-kg",
+      "harga": 60000,
+      "img": "img/setraWangi.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "7",
+      "title": "setra wangi",
+      "kelompok": "beras",
+      "deskripsi": "FS Setra wangi adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
+      "volume": "10-kg",
+      "harga": 70000,
+      "img": "img/setraWangi.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "8",
+      "title": "premium gulaku WHITE pack",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "1-kg",
+      "harga": 15000,
+      "img": "img/gulakuWhite.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "9",
+      "title": "premium gulaku GOLD pack",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "1-kg",
+      "harga": 15000,
+      "img": "img/gulakuGold.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "10",
+      "title": "manis kita",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "1-kg",
+      "harga": 15000,
+      "img": "img/manisKita.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "11",
+      "title": "tropicana slim classic (100sc)",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "250-g",
+      "harga": 15000,
+      "img": "img/tropicanaSlimClassic.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "12",
+      "title": "halus rose brand",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "500-g",
+      "harga": 15000,
+      "img": "img/gulaRoseBrand.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "13",
+      "title": "KISS",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
+      "volume": "500-g",
+      "harga": 15000,
+      "img": "img/kiss.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "14",
+      "title": "aren bubuk HAAN palm-sugar",
+      "kelompok": "gula",
+      "deskripsi": "Gula aren manis alami yang diolah menggunakan teknologi tinggi dengan tektsur bubuk dengan hasil yang terbaik.",
+      "volume": "250-g",
+      "harga": 15000,
+      "img": "img/HaanAren.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "15",
+      "title": "jawa tropicana slim",
+      "kelompok": "gula",
+      "deskripsi": "Tropicana slim - Gula jawa diolah dengan teknologi canggih menghasilkan gula yang cocok untuk diet, aman untuk diabetes, preaktis dan nikmat.",
+      "volume": "350-ml",
+      "harga": 15000,
+      "img": "img/gulaJawa.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "16",
+      "title": "indosugar",
+      "kelompok": "gula",
+      "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli yang diolah menggunakan teknologi tinggi dengan hasil gula batu yang bersih, putih dan aman untuk dikonsumsi.",
+      "volume": "1-kg",
+      "harga": 15000,
+      "img": "img/indoSugar.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "17",
+      "title": "Rose brand",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng Rose Brand adalah minyak goreng sawit berwarna kuning emas yang dapat membuat masakan menjadi lebih gurih dan lezat.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakRoseBrand.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "18",
+      "title": "Sania",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakSania.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "19",
+      "title": "Barco",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakBarco.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "20",
+      "title": "Bimoli",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakBimoli.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "21",
+      "title": "Filma",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakFilma.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "22",
+      "title": "Fortune",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakFortune.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "23",
+      "title": "Forvita",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "500-ml",
+      "harga": 15000,
+      "img": "img/minyakForvita.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "24",
+      "title": "sedap",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakSedap.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "25",
+      "title": "sunco",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "1-ltr",
+      "harga": 15000,
+      "img": "img/minyakSunco.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "27",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "28",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "29",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "30",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "31",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "32",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "33",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "34",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "35",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "36",
+      "title": "tropical",
+      "kelompok": "minyak goreng",
+      "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
+      "volume": "2-ltr",
+      "harga": 15000,
+      "img": "img/minyakTropical.png",
+      "quantity": 50,
+      "order": 0
+    }
+  ],
+  "paketmurah": [
+    {
+      "id": "1",
+      "title": "BMG",
+      "kelompok": "paket murah",
+      "deskripsi": "Paket dengan item beras + minyak goreng + gula dengan harga termurah.",
+      "volume": "",
+      "harga": 180000,
+      "img": "/img/sania.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "2",
+      "title": "KG",
+      "kelompok": "paket murah",
+      "deskripsi": "Paket dengan item kopi + gula dengan harga termurah.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/keluargaBijak.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "3",
+      "title": "MGK",
+      "kelompok": "paket murah",
+      "deskripsi": "Paket dengan item minyak goreng + kopi + gula dengan harga termurah.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "4",
+      "title": "BMT",
+      "kelompok": "paket murah",
+      "deskripsi": "Paket dengan item beras + minyak goreng + tepung dengan harga termurah.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    }
+  ],
+  "paketlengkap": [
+    {
+      "id": "1",
+      "title": "BMG",
+      "kelompok": "paket lengkap",
+      "deskripsi": "Paket dengan item beras + minyak goreng + gula dengan harga irit.",
+      "volume": "",
+      "harga": 180000,
+      "img": "/img/sania.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "2",
+      "title": "KG",
+      "kelompok": "paket lengkap",
+      "deskripsi": "Paket dengan item kopi + gula dengan harga irit.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/keluargaBijak.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "3",
+      "title": "MGK",
+      "kelompok": "paket lengkap",
+      "deskripsi": "Paket dengan item minyak goreng + gula + kopi dengan harga irit.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    },
+    {
+      "id": "4",
+      "title": "BMT",
+      "kelompok": "paket lengkap",
+      "deskripsi": "Paket dengan item beras + minyak goreng + tepung dengan harga irit.",
+      "volume": "",
+      "harga": 180000,
+      "img": "img/anakRaja.png",
+      "quantity": 50,
+      "order": 0
+    }
+  ]
+}

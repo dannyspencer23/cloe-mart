@@ -1,0 +1,171 @@
+<script setup>
+const Today = new Date()
+
+let thisYear = Today.getFullYear()
+let nextYear = Today.getFullYear() + 1
+
+// let thisYear = Today.getFullYear()
+// let nextYear = Today.getFullYear() + 1
+
+let countDownTime = new Date('January 01 ' + nextYear + ' 00:00:00')
+
+function remainTime() {
+  let timeNow = new Date()
+
+  let remain = countDownTime - timeNow
+
+  let sec = Math.floor(remain / 1000) % 60
+  let min = Math.floor(remain / 1000 / 60) % 60
+  let hour = Math.floor(remain / 1000 / 60 / 60) % 24
+  let day = Math.floor(remain / 1000 / 60 / 60 / 24)
+
+  document.getElementById('thisYear').innerHTML = thisYear
+  if (day <= 0) {
+    if (hour <= 0) {
+      if (min <= 0) {
+        if (sec <= 0) {
+          var str =
+            thisYear +
+            'sudah menjadi bentuk lampau, mari kita lihat ke masa depan' +
+            nextYear +
+            'jadilah tahun yang baik'
+          document.getElementById('timer').innerHTML = str
+        } else {
+          var str = 'sisanya' + sec + 'kedua'
+          document.getElementById('timer').innerHTML = str
+        }
+      } else {
+        var str = 'sisanya' + min + 'menit' + sec + 'detik'
+        document.getElementById('timer').innerHTML = str
+      }
+    } else {
+      var str = 'sisanya' + hour + 'jam' + min + 'menit' + sec + 'detik'
+      document.getElementById('timer').innerHTML = str
+    }
+  } else {
+    var str = 'sisanya' + day + 'hari' + hour + 'jam' + min + 'menit' + sec + 'detik'
+    document.getElementById('timer').innerHTML = str
+  }
+}
+
+// 重複呼叫函數 remainTime()
+const timeinterval = setInterval(function () {
+  var t = countDownTime - new Date()
+
+  if (t < 0) {
+    clearInterval(timeinterval)
+    // 時間到了
+  } else {
+    remainTime()
+  }
+}, 1000)
+</script>
+
+
+
+??????????????????????????
+
+<script setup>
+const daysEl = document.getElementById('days')
+const hoursEl = document.getElementById('hours')
+const minsEl = document.getElementById('mins')
+const secondsEl = document.getElementById('seconds')
+const newYears = '1 Jan 2024'
+
+function remainTime() {
+  const newYearsDate = new Date(newYears)
+  const currentDate = new Date()
+
+  const totalSeconds = (newYearsDate - currentDate) / 1000
+  const days = Math.floor(totalSeconds / 3600 / 24)
+  const hours = Math.floor(totalSeconds / 3600) % 24
+  const mins = Math.floor(totalSeconds / 60) % 60
+  const seconds = Math.floor(totalSeconds) % 60
+
+  if (days <= 0) {
+    if (hours <= 0) {
+      if (mins <= 0) {
+        if (seconds <= 0) {
+          
+        }
+      }
+    }
+  }
+
+  //   ada error
+  // daysEl.innerHTML = days
+  // hoursEl.innerHTML = hours
+  // minsEl.innerHTML = mins
+  // secondsEl.innerHTML = seconds
+  // return remainTime()
+}
+// setInterval(remainTime, 1000)
+</script>
+
+
+
+<script setup>
+import { reactive, computed, onMounted } from 'vue'
+
+const displayTime = reactive({
+  displayDays: 0,
+  displayHours: 0,
+  displayMinutes: 0,
+  displaySeconds: 0,
+  _seconds: 10000
+})
+
+const _minutes = computed(() => {
+  displayTime._seconds * 60
+})
+const _hours = computed(() => {
+  return displayTime._minutes * 60
+})
+const _days = computed(() => {
+  return displayTime._hours * 60
+})
+
+function formatNum(num) {
+  return num < 10 ? '0' + num : num
+}
+
+const showRemaining = () => {
+  const timer = setInterval(() => {
+    const now = new Date()
+    const end = new Date('21 Nov 2023')
+    const distance = end.getTime() - now.getTime()
+
+    if (distance < 0) {
+      clearInterval(timer)
+      return
+    }
+    const days = Math.floor(distance / this._days)
+    const hours = Math.floor((distance % this._days) / this._hours)
+    const minutes = Math.floor((distance % this._hours) / this._minutes)
+    const seconds = Math.floor((distance % this._minutes) / this._seconds)
+    this.displayDays = this.formatNum(days)
+    this.displayHours = this.formatNum(hours)
+    this.displayMinutes = this.formatNum(minutes)
+    this.displaySeconds = this.formatNum(seconds)
+  }, 1000)
+}
+
+// onMounted(() => {
+//   this.days
+// })
+
+// method
+// function calculateBooksMessage() {
+//   return author.books.length > 0 ? 'Yes' : 'No'
+// }
+// computed: {
+//     // a computed getter
+//     publishedBooksMessage() {
+//       // `this` points to the component instance
+//       return this.author.books.length > 0 ? 'Yes' : 'No'
+//     }
+//   }
+// const publishedBooksMessage = computed(() => {
+//   return author.books.length > 0 ? 'Yes' : 'No'
+// })
+</script>

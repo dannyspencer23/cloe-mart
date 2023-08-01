@@ -1,0 +1,118 @@
+<template>
+  <main class="mx-auto max-w-full bg-white mb-32">
+    <!-- @ BANNER -->
+    <Banner></Banner>
+
+    <!-- @ SEARCH  -->
+    <section
+      class="px-10 mx-auto py-4 bg-slate-300 flex flex-row items-center justify-between mob:hidden md:block lg:max-w-full lg:px-10 xl:max-w-[1123px]"
+    >
+      <!-- SEARCH -->
+      <!-- vee-form -->
+      <form
+        role="search"
+        autocomplete="off"
+        class="w-[400px] flex flex-row-reverse bg-white items-center px-3 rounded-md gap-x-3 border-2 justify-items-end border-gray-400"
+      >
+        <!-- v-model="search" -->
+        <input
+          type="text"
+          class="w-full py-2 text-black outline-none"
+          aria-label="Cari"
+          placeholder="Misal: gula...minyak goreng....beras..dst"
+          v-model="search"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="1.5em"
+          viewBox="0 0 512 512"
+          class="fill-sky-700"
+        >
+          <path
+            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          />
+        </svg>
+      </form>
+    </section>
+
+    <!-- @ MOBILE -->
+    <section
+      class="max-w-full mx-auto px-3 my-3 bg-transparent flex flex-row items-center justify-between sm:hidden"
+    >
+      <form
+        role="search"
+        autocomplete="off"
+        class="w-full flex flex-row-reverse bg-white items-center px-2 rounded-md gap-x-1 border-2 justify-items-end border-gray-400"
+      >
+        <!-- v-model="search" -->
+        <input
+          type="text"
+          class="w-full py-1 text-black outline-none"
+          aria-label="Cari"
+          placeholder="Misal: gula...minyak goreng....beras..dst"
+          v-model="search"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="1em"
+          viewBox="0 0 512 512"
+          class="fill-sky-700"
+        >
+          <path
+            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          />
+        </svg>
+      </form>
+    </section>
+
+    <!-- @ ALL ITEM -->
+    <section class="h-[1000px] snap-start overflow-y-scroll snap-mandatory">
+      <section
+        class="px-10 grid grid-cols-4 justify-items-start gap-y-0 max-w-[1200px] mx-auto gap-x-6 bg-white snap-x mob:grid-cols-2 mob:px-3 md:grid-cols-4 md:gap-x-6"
+      >
+        <!-- <Items v-for="item in dbJson" :key="item.id" :item="item"> </Items> -->
+        <Items v-for="item in searchItem" :key="item" :item="item"> </Items>
+      </section>
+      <div class="max-w-[1200px] mx-auto border-b-2 border-gray-300"></div>
+    </section>
+  </main>
+</template>
+
+<script setup>
+import Items from '../components/Items.vue'
+import Banner from '../components/Banner.vue'
+
+// ------ IMPORT CARA 1 ----
+import { ref, onMounted, computed } from 'vue'
+import axios from 'axios'
+// import { collection } from "firebase/firestore";
+// ------ CARA 2 ----
+// const query = ref('')
+const data = ref([])
+const search = ref(``)
+
+const getData = () => {
+  // console.log(this.query)
+  return (
+    axios
+      //.get('http://localhost:3000/allItems/')
+      .get('https://cloe-mart-default-rtdb.firebaseio.com/allItems/.json')
+      .then((res) => (data.value = res.data))
+      .catch((error) => console.log(error))
+  )
+
+  // console.log('sukses', data)
+}
+
+onMounted(() => {
+  getData()
+})
+
+const searchItem = computed(() => {
+  return data.value.filter((item) => {
+    return item.kelompok.toLowerCase().includes(search.value)
+  })
+})
+</script>
+
+<style scoped></style>
