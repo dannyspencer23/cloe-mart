@@ -9,7 +9,8 @@
       "harga": 64000,
       "img": "/img/sania.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "harga": 64000,
       "img": "img/keluargaBijak.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "3",
@@ -31,7 +33,8 @@
       "harga": 40000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "4",
@@ -42,7 +45,8 @@
       "harga": 64000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "5",
@@ -53,7 +57,8 @@
       "harga": 140000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "6",
@@ -64,7 +69,8 @@
       "harga": 60000,
       "img": "img/setraWangi.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "7",
@@ -75,7 +81,8 @@
       "harga": 70000,
       "img": "img/setraWangi.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "8",
@@ -86,7 +93,8 @@
       "harga": 15000,
       "img": "img/gulakuWhite.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "9",
@@ -97,7 +105,8 @@
       "harga": 15000,
       "img": "img/gulakuGold.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "10",
@@ -108,7 +117,8 @@
       "harga": 15000,
       "img": "img/manisKita.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "11",
@@ -119,7 +129,8 @@
       "harga": 15000,
       "img": "img/tropicanaSlimClassic.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "12",
@@ -130,7 +141,8 @@
       "harga": 15000,
       "img": "img/gulaRoseBrand.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "13",
@@ -141,7 +153,8 @@
       "harga": 15000,
       "img": "img/kiss.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "14",
@@ -152,7 +165,8 @@
       "harga": 15000,
       "img": "img/HaanAren.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "15",
@@ -163,7 +177,8 @@
       "harga": 15000,
       "img": "img/gulaJawa.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "16",
@@ -174,7 +189,8 @@
       "harga": 15000,
       "img": "img/indoSugar.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "17",
@@ -185,7 +201,8 @@
       "harga": 15000,
       "img": "img/minyakRoseBrand.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "18",
@@ -196,7 +213,8 @@
       "harga": 15000,
       "img": "img/minyakSania.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "19",
@@ -207,7 +225,8 @@
       "harga": 15000,
       "img": "img/minyakBarco.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "20",
@@ -218,7 +237,8 @@
       "harga": 15000,
       "img": "img/minyakBimoli.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "21",
@@ -229,7 +249,8 @@
       "harga": 15000,
       "img": "img/minyakFilma.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "22",
@@ -240,7 +261,8 @@
       "harga": 15000,
       "img": "img/minyakFortune.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "23",
@@ -251,7 +273,8 @@
       "harga": 15000,
       "img": "img/minyakForvita.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "24",
@@ -262,7 +285,8 @@
       "harga": 15000,
       "img": "img/minyakSedap.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "25",
@@ -273,7 +297,8 @@
       "harga": 15000,
       "img": "img/minyakSunco.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "27",
@@ -284,7 +309,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "28",
@@ -295,7 +321,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "29",
@@ -306,7 +333,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "30",
@@ -317,7 +345,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "31",
@@ -328,7 +357,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "32",
@@ -339,7 +369,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "33",
@@ -350,7 +381,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "34",
@@ -361,7 +393,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "35",
@@ -372,7 +405,8 @@
       "harga": 15000,
       "img": "img/minyakTropical.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "36",
@@ -396,7 +430,8 @@
       "harga": 180000,
       "img": "/img/sania.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "2",
@@ -407,7 +442,8 @@
       "harga": 180000,
       "img": "img/keluargaBijak.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "3",
@@ -418,7 +454,8 @@
       "harga": 180000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "4",
@@ -429,7 +466,8 @@
       "harga": 180000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     }
   ],
   "paketlengkap": [
@@ -442,7 +480,8 @@
       "harga": 180000,
       "img": "/img/sania.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "2",
@@ -453,7 +492,8 @@
       "harga": 180000,
       "img": "img/keluargaBijak.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "3",
@@ -464,7 +504,8 @@
       "harga": 180000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     },
     {
       "id": "4",
@@ -475,7 +516,8 @@
       "harga": 180000,
       "img": "img/anakRaja.png",
       "quantity": 50,
-      "order": 0
+      "order": 0,
+      "isFav": false
     }
   ]
 }

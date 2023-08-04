@@ -35,5 +35,7 @@ export const useUserStore = defineStore('user', {
 
       this.userLoggedIn = false
     }
+
+    // using <script setup></script>
   }
 })

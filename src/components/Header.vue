@@ -82,10 +82,18 @@
 
       <!-- NAV -->
       <nav class="mx-auto col-span-2" v-if="!userStore.userLoggedIn">
-        <ul class="flex flex-row gap-x-0 outline-2 divide-x-2" exact-active-class="no-active">
+        <ul
+          class="flex flex-row gap-x-0 outline-2 divide-x-2 cursor-default"
+          exact-active-class="no-active"
+        >
           <li class="text-lg font-bold lg:px-4 xl:px-7">
             <RouterLink :to="{ name: 'dashboard' }">All Item</RouterLink>
           </li>
+          <!-- <RouterLink :to="{ name: 'paketmurah' }">Paket Murah</RouterLink> -->
+          <li class="lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Murah</li>
+
+          <!-- <RouterLink :to="{ name: 'paketlengkap' }">Paket Lengkap</RouterLink> -->
+          <li class="lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Lengkap</li>
         </ul>
       </nav>
       <nav class="mx-auto col-span-2" v-else>
@@ -107,32 +115,29 @@
 
       <!-- $ CART & NOTIFICATION -->
       <div v-if="!userStore.userLoggedIn">
-        <!-- % NOTIFICATION -->
+        <!-- % STAR FAVORITE -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="1.4em"
-          viewBox="0 0 448 512"
+          viewBox="0 0 576 512"
           class="fill-white"
-          type="button"
-          @click="notify"
         >
           <path
-            d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
           />
         </svg>
       </div>
       <div class="flex flex-row gap-x-6 justify-self-center" v-else>
-        <!-- % NOTIFICATION -->
+        <!-- % STAR FAVORITE -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="1.4em"
-          viewBox="0 0 448 512"
+          viewBox="0 0 576 512"
           class="fill-white"
-          type="button"
-          @click="notify"
+          @click="addFav = 'favs'"
         >
           <path
-            d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
           />
         </svg>
         <!-- % KERANJANG -->
@@ -151,7 +156,11 @@
       <!-- # DAFTAR & LOGIN -->
       <div v-if="!userStore.userLoggedIn" class="space-x-3 justify-self-end">
         <!-- rounded-md bg-sky-600 hover:bg-white -->
-        <a href="#" class="font-normal text-white tracking-wide" @click.prevent="toggleAuthModal">
+        <a
+          href="#"
+          class="font-normal text-white tracking-wide"
+          @click.prevent="modalStore.toggleAuthModal()"
+        >
           Daftar / Masuk
         </a>
       </div>
@@ -184,12 +193,14 @@
   <Banner></Banner>
 </template>
 
-<script>
+<!-- SCRIPT SETUP() -->
+<!-- <script>
 import Banner from '@/components/Banner.vue'
 import { mapStores } from 'pinia'
 import { useModalStore } from '@/stores/modal'
 import { useUserStore } from '@/stores/user'
 import { useNativeNotifications } from 'vue3-native-notification'
+import { ref } from 'vue'
 
 export default {
   name: 'Header',
@@ -198,6 +209,8 @@ export default {
   },
   setup() {
     const nativeNotification = useNativeNotifications()
+
+    const addFav = ref('favs')
 
     const notify = function () {
       nativeNotification.show(
@@ -219,24 +232,38 @@ export default {
     }
   }
 }
-</script>
+</script> -->
 
-<!-- <script setup>
-import { RouterView } from 'vue-router'
-import { mapStores, mapState, mapWritableState } from 'pinia'
-import { computed } from 'vue'
+<script setup>
+// import Banner from '@/components/Banner.vue'
+// import { mapStores } from 'pinia'
+// import { useModalStore } from '@/stores/modal'
+// import { useUserStore } from '@/stores/user'
+// import { useNativeNotifications } from 'vue3-native-notification'
+// import { ref } from 'vue'
 
 // --------------------------------------------------------
+import Banner from '@/components/Banner.vue'
 import { useModalStore } from '@/stores/modal'
-import { mapState } from 'pinia'
+import { useUserStore } from '@/stores/user'
 
-const store = useModalStore()
-const toggleAuthModal = () => {
-  modalStore.isOpen = !modalStore.isOpen
-  console.log(modalStore.isOpen)
-  store.isOpen = !store.isOpen
-  console.log(store.isOpen)
-  console.log(mapstore.isOpen)
-  console.log(mapwritestate.isOpen)
+const userStore = useUserStore()
+const modalStore = useModalStore()
+
+const alertMsg = () => {
+  alert('Daftar/Masuk terlebih dahulu.')
 }
-</script> -->
+
+// function toggleAuthModal() {
+//   this.modalStore.isOpen = !this.modalStore.isOpen
+//   console.log(this.modalStore.isOpen)
+// }
+// const toggleAuthModal = () => {
+//   modalStore.isOpen = !modalStore.isOpen
+//   console.log(modalStore.isOpen)
+//   store.isOpen = !store.isOpen
+//   console.log(store.isOpen)
+//   console.log(mapstore.isOpen)
+//   console.log(mapwritestate.isOpen)
+// }
+</script>

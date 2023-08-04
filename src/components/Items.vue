@@ -5,14 +5,14 @@
   >
     <!-- 1 -->
     <!-- IMG -->
-    <div class="h-[200px] mob:h-[150px] md:h-[200px] xl:w- xl:h-[200px]">
+    <div class="h-[200px] mob:h-[150px] md:h-[200px] xl:h-[200px]">
       <img class="w-full h-[200px] object-scale-down" :src="item.img" :alt="item.title" />
     </div>
 
     <!-- 2 CONTENT -->
-    <div class="grid grid-rows-[1fr_1fr_auto] bg-white">
+    <div class="grid grid-rows-[70px_1fr_auto] bg-white h-fit xl:mt-4">
       <!-- TITLE -->
-      <div class="py-2 mob:items-start mob:my-auto px-2 xl:justify-items-start xl:py-0">
+      <div class="py-2 mob:items-start mob:my-auto px-2 xl:justify-items-start xl:py-0 xl:h-[60px]">
         <h1
           class="text-lg font-bold capitalize text-center mob:text-base mob:text-left xl:text-center xl:text-lg"
         >
@@ -21,7 +21,7 @@
       </div>
 
       <!-- DESCRIPTION -->
-      <div class="mob:hidden md:block px-2 xl:">
+      <div class="mob:hidden md:block px-2 xl:h-[125px]">
         <p class="text-ellipsis overflow-hidden text-justify indent-5">
           {{ item.deskripsi.slice(0, 120) + '....' }}
           <!-- .slice(0, 100)-->
@@ -29,7 +29,7 @@
       </div>
 
       <!-- BUTTON & PRICE -->
-      <div class="flex flex-row items-center justify-between px-4 mt-3">
+      <div class="flex flex-row items-center justify-between px-4 mt-3 h-fit">
         <!-- 4 -->
         <!-- .toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') -->
         <h1 class="text-lg font-bold text-right capitalize mt-3 mob:text-base px-2 xl:text-xl">

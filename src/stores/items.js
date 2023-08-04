@@ -20,6 +20,8 @@ export const useItemsStore = defineStore('items', {
   actions: {
     // -------NOT USING AXIOS
     // 'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json?orderBy="kelompok"&equalTo="'
+
+    //
     async getAllItem() {
       this.isLoading = true
       const response = await fetch('https://cloe-mart-default-rtdb.firebaseio.com/allItems.json')
@@ -34,14 +36,21 @@ export const useItemsStore = defineStore('items', {
       this.isLoading = true
       const response = await fetch(
         'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json' +
-          '?orderBy="title"&equalTo="' +
+          '?orderBy="kelompok"&equalTo="' +
           this.search.toLowerCase() +
           '"'
       )
+
+      // trying
+      // const response = await fetch(
+      //   'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json' +
+      //     '?orderBy="kelompok"&print=' +
+      //     this.search.toLowerCase()
+      // )
       const dataAllItem = await response.json()
       this.allItem = dataAllItem
 
-      if (this.search == '') {
+      if (this.search == ``) {
         console.log('berhasil')
         const response = await fetch('https://cloe-mart-default-rtdb.firebaseio.com/allItems.json')
         const dataAllItem = await response.json()

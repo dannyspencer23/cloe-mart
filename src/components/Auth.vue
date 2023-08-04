@@ -1,5 +1,6 @@
 <template>
   <!-- Auth Modal -->
+  <!-- :class="hiddenclass" when using mapWritableState-->
   <div class="fixed z-10 inset-0 mt-10 overflow-y-auto" id="modal" :class="hiddenClass">
     <div
       class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0"
@@ -20,6 +21,7 @@
           <div class="flex justify-between items-center pb-4">
             <p class="text-2xl font-bold">Your Account</p>
             <!-- Modal Close Button -->
+            <!-- @click="modalStore.toggleAuthModal()" -->
             <div
               class="modal-close cursor-pointer z-50 px-2 py-1 rounded-md group hover:bg-red-600"
               @click="modalVisibility = false"
@@ -103,20 +105,12 @@ export default {
 </script>
 
 <!-- <script setup>
-// import { ref, computed } from 'vue'
-// import { mapState, mapWritableState } from 'pinia'
-// // import { useModalStore } from '@/stores/modal'
-// import { useModalStore } from '@/stores/modal'
-// import AppLoginForm from '@/components/LoginForm.vue'
-// import AppRegisterForm from '@/components/RegisterForm.vue'
+import AppLoginForm from '@/components/LoginForm.vue'
+import AppRegisterForm from '@/components/RegisterForm.vue'
+import { useModalStore } from '@/stores/modal'
+// import { storeToRefs } from 'pinia'
+import { ref } from 'vue'
 
-// const tab = ref('login')
-// const modalStore = useModalStore()
-
-// mapSmapState(useModalStore, ['hiddenClass'])
-// mapState(useModalStore, ['hiddenClass'])
-
-// const mapstate = computed(() => {
-//   mapState(useModalStore, ['hiddenClass'])
-// })
+const modalStore = useModalStore()
+const tab = ref('login')
 </script> -->

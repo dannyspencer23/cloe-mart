@@ -107,10 +107,22 @@ const itemsStore = useItemsStore()
 const { isLoading, allItem, search } = storeToRefs(itemsStore)
 
 watchEffect(() => {
-  itemsStore.searchAllItem(itemsStore.search)
+  return itemsStore.searchAllItem(itemsStore.search)
 })
+
+// trying watch
+// watch(() => {
+//   return itemsStore.searchAllItem(itemsStore.search)
+// })
+
+// SEARCH TRYING
+// watchEffect(() => {
+//   itemsStore.searchAllItem(itemsStore.search)
+// })
+
 onMounted(() => {
-  itemsStore.getAllItem()
+  itemsStore.getAllItem() //fix
+  // itemsStore.searchAllItem() //trying
 })
 
 // const searchItem = computed(() => {

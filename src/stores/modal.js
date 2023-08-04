@@ -9,6 +9,19 @@ export const useModalStore = defineStore('modal', {
       // return !state.isOpen ? 'hidden' : ''
       return !state.isOpen ? 'hidden' : ''
     }
+  },
+  // when using <script setup></script>, method will be in actions store
+  actions: {
+    toggleAuthModal() {
+      // this.modalStore.isOpen = !this.modalStore.isOpen
+      // console.log(this.modalStore.isOpen)
+      this.$state.isOpen = !this.$state.isOpen
+      console.log(this.$state.isOpen)
+    }
+    // modalVisibility() {
+    //   this.$state.isOpen = !this.$state.isOpen
+    //   console.log('terbuka')
+    // }
   }
 })
 

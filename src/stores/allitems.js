@@ -1,18 +1,18 @@
-import { defineStore } from 'pinia'
-import axios from 'axios'
-import { ref } from 'vue'
-// import axiosClient from 'axios'
+// import { defineStore } from 'pinia'
+// import axios from 'axios'
+// import { ref } from 'vue'
+// // import axiosClient from 'axios'
 
-//
-export const useAllItemsStore = defineStore('allItems', {
-  state: () => ({
-    AllItem: [],
-    isLoading: ref(false)
-  }),
+// //
+// export const useAllItemsStore = defineStore('allItems', {
+//   state: () => ({
+//     AllItem: [],
+//     isLoading: ref(false)
+//   }),
 
-  getters: {},
+//   getters: {},
 
-  actions: {
-    async getAllItems() {}
-  }
-})
+//   actions: {
+//     async getAllItems() {}
+//   }
+// })
