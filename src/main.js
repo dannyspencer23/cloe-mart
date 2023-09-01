@@ -2,6 +2,9 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import Vue3NativeNotification from 'vue3-native-notification'
 
+// SWIPER CAROUSEL
+import 'swiper/css'
+
 // FIREBASE
 import VeeValidatePlugin from './includes/validation'
 import { auth } from './includes/firebase'

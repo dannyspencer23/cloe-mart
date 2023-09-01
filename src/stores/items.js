@@ -1,8 +1,8 @@
 // import { data } from 'autoprefixer'
-import { is } from '@vee-validate/rules'
-import { defineStore } from 'pinia'
+// import { is } from '@vee-validate/rules'
 // import axios from 'axios'
 // import axiosClient from 'axios'
+import { defineStore } from 'pinia'
 
 //
 export const useItemsStore = defineStore('items', {
@@ -15,13 +15,15 @@ export const useItemsStore = defineStore('items', {
     isShow: true
   }),
 
-  getters: {},
+  // getters: {
+  //   getSearchResult(state) {
+  //     return state.search
+  //   }
+  // },
 
   actions: {
-    // -------NOT USING AXIOS
+    // -------------------NOT USING AXIOS---------------------------
     // 'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json?orderBy="kelompok"&equalTo="'
-
-    //
     async getAllItem() {
       this.isLoading = true
       const response = await fetch('https://cloe-mart-default-rtdb.firebaseio.com/allItems.json')
@@ -33,20 +35,21 @@ export const useItemsStore = defineStore('items', {
     async fetchPaketLengkap() {},
 
     async searchAllItem() {
-      this.isLoading = true
-      const response = await fetch(
-        'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json' +
-          '?orderBy="kelompok"&equalTo="' +
-          this.search.toLowerCase() +
-          '"'
-      )
+      if (!this.search) {
+        await this.getAllItem()
+      } else {
+        this.isLoading = true
 
-      // trying
-      // const response = await fetch(
-      //   'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json' +
-      //     '?orderBy="kelompok"&print=' +
-      //     this.search.toLowerCase()
-      // )
+        const response = await fetch(
+          'https://cloe-mart-default-rtdb.firebaseio.com/allItems.json' +
+            `?orderBy="kelompok"&equalTo="${this.search.toLowerCase()}"`
+        )
+        const dataAllItem = await response.json()
+        this.allItem = dataAllItem
+
+        this.isLoading = false
+      }
+
       const dataAllItem = await response.json()
       this.allItem = dataAllItem
 
@@ -58,8 +61,9 @@ export const useItemsStore = defineStore('items', {
       }
       this.isLoading = false
     }
+    // -------------------END NOT USING AXIOS---------------------------
 
-    //------ USING AXIOS
+    // -------------------USING AXIOS---------------------------
     // async fetchAllItem() {
     //   try {
     //     const data = await axios.get('https://cloe-mart-default-rtdb.firebaseio.com/allItems.json')
@@ -91,23 +95,6 @@ export const useItemsStore = defineStore('items', {
     //     console.log(error)
     //   }
     // }
-    // -------NOT USING AXIOS
-    // async fetchAllItem() {
-    //   const result = await fetch('https://cloe-mart-default-rtdb.firebaseio.com/allItems.json')
-    //   const response = await result.json()
-    //   this.allItem = response
-    // },
-    // async fetchPaketMurah() {},
-    // async fetchPaketLengkap() {}
+    // -------------------USING AXIOS---------------------------
   }
-
-  //   getters: {
-  //     ----- BEWARE: getter names cannot be same as state props!
-  //     useDataStore(state) {
-  //       return state.adps.length
-  //     },
-  //     adpsFilteredLength(state) {
-  //       return (query: string) => state.adps.filter((adp) => adp.estado_cd === query).length
-  //     }
-  //   }
 })

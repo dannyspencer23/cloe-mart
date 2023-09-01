@@ -1,0 +1,36 @@
+[33mcommit df478dc8a07a2f53ac65321670f64a2a74e52e4a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 3f501df 042736c
+Author: danny <ds176189@gmail.com>
+Date:   Fri Aug 4 22:34:20 2023 +0900
+
+    Merge branch 'master' of https://github.com/dannyspencer23/cloe-mart
+
+[33mcommit 3f501df68f59ea698c205135f9891b8229fd7dff[m
+Author: danny <ds176189@gmail.com>
+Date:   Fri Aug 4 22:33:02 2023 +0900
+
+    second commit
+
+[33mcommit 042736c61822daef79a5b1e40eb1867246861154[m
+Author: Danny Spencer S <136296739+dannyspencer23@users.noreply.github.com>
+Date:   Tue Aug 1 14:57:52 2023 +0900
+
+    Update README.md
+
+[33mcommit 6f1d2704947e59ddd49badad1d699a86922a9fa2[m
+Author: Danny Spencer S <136296739+dannyspencer23@users.noreply.github.com>
+Date:   Tue Aug 1 14:55:56 2023 +0900
+
+    Update README.md
+
+[33mcommit 1dd74b8320ffc0be72879af3e8655417ce0dc84d[m
+Author: Danny Spencer S <136296739+dannyspencer23@users.noreply.github.com>
+Date:   Tue Aug 1 14:54:34 2023 +0900
+
+    Update README.md
+
+[33mcommit b5fbcbf2b76d7a33974ba9fefd46c2be3126c72d[m
+Author: danny <ds176189@gmail.com>
+Date:   Tue Aug 1 13:54:57 2023 +0900
+
+    first commit

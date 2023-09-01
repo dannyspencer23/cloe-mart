@@ -69,27 +69,14 @@
     </div>
 
     <!-- 2 -->
-    <div class="col-span-2">
-      <div class="grid grid-rows-[100px_100px] gap-y-3">
-        <!-- <h1>1</h1>
-            <h1>2</h1> -->
-        <img
-          src="https://images.unsplash.com/photo-1591096490721-969917a57ad5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
-          alt=""
-          class="object-cover h-[100px] w-full"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1591096490721-969917a57ad5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
-          alt=""
-          class="object-cover h-[100px] w-full"
-        />
-      </div>
-    </div>
+    <Carousel></Carousel>
   </section>
 </template>
 
 <script>
+import Carousel from '../components/Carousel.vue'
 export default {
+  components: { Carousel },
   data: () => ({
     displayDays: 0,
     displayHours: 0,

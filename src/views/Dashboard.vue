@@ -1,7 +1,7 @@
 <template>
   <main class="mx-auto max-w-full bg-gray-100 mb-32">
     <!-- @ SEARCH  -->
-    <section class="mx-auto lg:max-w-full bg-white px-10 xl:max-w-desk_max xl:px-0">
+    <section class="mx-auto lg:max-w-full bg-gray-100 px-10 xl:max-w-desk_max xl:px-0">
       <div class="py-2 px-5 bg-gray-300 max-w-full mx-auto xl:max-w-desk_max">
         <!-- SEARCH -->
         <!-- vee-form -->
@@ -10,9 +10,6 @@
           autocomplete="off"
           class="w-[400px] flex flex-row-reverse bg-white items-center px-3 rounded-md gap-x-3 border-2 justify-items-end border-gray-400"
         >
-          <!-- v-model="search" -->
-          <!-- v-model="search" -->
-          <!-- v-model="itemsStore.getItems" -->
           <input
             type="text"
             class="w-full py-2 text-black outline-none"
@@ -64,12 +61,12 @@
     </section>
 
     <!-- @ ALL ITEM -->
-    <!-- snap-mandatory snap-y overflow-y-auto overscroll-y-none scroll-py-4 -->
-    <!-- <section class=""> -->
+
     <div
       class="xl:max-w-desk_max xl:px-0 mx-auto xl:text-3xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
       v-if="isLoading"
     >
+      <!-- LOADING SPIN -->
       <div class="lds-roller">
         <div class=""></div>
         <div></div>
@@ -83,12 +80,11 @@
     </div>
 
     <section
-      class="grid justify-items-start mx-auto gap-x-6 bg-gray-100 mob:grid-cols-2 mob:px-3 md:grid-cols-4 md:gap-x-6 md:gap-y-10 md:mt-10 lg:max-w-full lg:px-10 xl:max-w-desk_max xl:px-0 snap-y overflow-y-scroll h-[800px]"
+      class="grid grid-cols-3 justify-items-start max-w-full mx-auto gap-x-6 gap-y-10 mt-10 px-10 snap-y overflow-y-scroll h-[800px] xl:grid-cols-4 xl:max-w-desk_max xl:px-0"
     >
-      <!-- <Items v-for="item in data" :key="item.id" :item="item"> </Items> -->
-      <!-- <Items v-for="item in searchItem" :key="item" :item="item"> </Items> -->
-      <Items v-for="item in allItem" :key="item.title" :item="item"> </Items>
-      <!-- <Items v-for="data in data" :key="data.id" :data="data"> </Items> -->
+      <!-- THIS WORK -->
+      <!-- <Items v-for="item in allItem" :key="item.title" :item="item"> </Items> -->
+      <Items v-for="item in handleSearch" :key="item.kelompok || item.title" :item="item"> </Items>
     </section>
     <div class="max-w-[1200px] mx-auto border-b-2 border-gray-300"></div>
     <!-- </section> -->
@@ -99,47 +95,43 @@
 import Items from '../components/Items.vue'
 
 //---------- USING PINIA STORE ----------
-import { onMounted, watchEffect } from 'vue'
+import { computed, onMounted, ref, watch, watchEffect } from 'vue'
 import { useItemsStore } from '../stores/items'
 import { storeToRefs } from 'pinia'
 
 const itemsStore = useItemsStore()
 const { isLoading, allItem, search } = storeToRefs(itemsStore)
 
-watchEffect(() => {
-  return itemsStore.searchAllItem(itemsStore.search)
+//----------------------- SEARCH----------------------
+
+// THIS LINE SO BADASS
+const handleSearch = computed(() => {
+  if (!search.value) {
+    return allItem.value
+  }
+
+  const searchItem = search.value.toLowerCase()
+  return allItem.value.filter(
+    (item) =>
+      item.kelompok.toLowerCase().includes(searchItem) ||
+      item.title.toLowerCase().includes(searchItem)
+  )
 })
 
-// trying watch
-// watch(() => {
+// ------THIS WORK-------
+//---- BUT in INPUT FORM, WE MUST WRITE FULL WORD exm:beras or gula or minyak goreng
+// watchEffect(() => {
 //   return itemsStore.searchAllItem(itemsStore.search)
 // })
 
-// SEARCH TRYING
-// watchEffect(() => {
-//   itemsStore.searchAllItem(itemsStore.search)
-// })
+// ----------------------------------------------------
 
+// --------ON MOUNTED---------------------
 onMounted(() => {
   itemsStore.getAllItem() //fix
   // itemsStore.searchAllItem() //trying
 })
-
-// const searchItem = computed(() => {
-//   return apply.value.filter((item) => {
-//     return item.kelompok.toLowerCase().includes(search.value)
-//   })
-// })
-
-// watchEffect(() => {
-//   itemsStore.fetchAllItem(itemsStore.search)
-// })
-// const items = computed(() => {
-//   return itemsStore.allItem
-// })
-// onMounted(() => {
-//   itemsStore.fetchAllItem
-// })
+// --------------------------------------
 
 // ------ FETCH USING AXIOS - not PINIA ----
 // import { ref, onMounted, computed } from 'vue'

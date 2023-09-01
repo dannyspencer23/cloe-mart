@@ -1,7 +1,7 @@
 <template>
   <header class="bg-sky-500 text-white sticky top-0 z-50 py-2 mob:hidden md:block">
     <!-- @ 1 -->
-    <section class="mx-auto lg:max-w-full lg:px-10 xl:max-w-desk_max xl:px-0">
+    <section class="mx-auto md:px-3 lg:max-w-full lg:px-10 xl:max-w-desk_max xl:px-0">
       <!-- # -->
       <div class="grid grid-cols-5 items-center">
         <!-- $ FOLLOW MEDSOS -->
@@ -72,7 +72,7 @@
 
     <!-- @ 2 -->
     <section
-      class="grid grid-cols-5 max-w-desk_max mx-auto pt-2 pb- xl:0 items-center mob:hidden md:grid lg:max-w-full lg:px-10 lg:grid-cols-[auto_auto_auto_auto_auto_] xl:max-w-desk_max xl:px-0"
+      class="grid grid-cols-5 max-w-desk_max mx-auto pt-2 pb-0 items-center mob:hidden md:grid md:grid-cols-6 md:max-w-full md:px-3 lg:max-w-full lg:px-10 lg:grid-cols-[auto_auto_auto_auto_auto_] xl:max-w-desk_max xl:px-0"
     >
       <!-- # BRAND -->
       <div class="flex flex-row items-end">
@@ -81,33 +81,33 @@
       </div>
 
       <!-- NAV -->
-      <nav class="mx-auto col-span-2" v-if="!userStore.userLoggedIn">
+      <nav class="mx-auto col-span-2 md:col-span-3 lg:col-span-2" v-if="!userStore.userLoggedIn">
         <ul
           class="flex flex-row gap-x-0 outline-2 divide-x-2 cursor-default"
           exact-active-class="no-active"
         >
-          <li class="text-lg font-bold lg:px-4 xl:px-7">
+          <li class="text-lg font-bold md:px-4 lg:px-4 xl:px-7">
             <RouterLink :to="{ name: 'dashboard' }">All Item</RouterLink>
           </li>
           <!-- <RouterLink :to="{ name: 'paketmurah' }">Paket Murah</RouterLink> -->
-          <li class="lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Murah</li>
+          <li class="md:px-4 lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Murah</li>
 
           <!-- <RouterLink :to="{ name: 'paketlengkap' }">Paket Lengkap</RouterLink> -->
-          <li class="lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Lengkap</li>
+          <li class="md:px-4 lg:px-4 xl:px-7 text-slate-300" @click="alertMsg">Paket Lengkap</li>
         </ul>
       </nav>
       <nav class="mx-auto col-span-2" v-else>
         <ul class="flex flex-row gap-x-0 outline-2 divide-x-2" exact-active-class="no-active">
-          <li class="text-lg font-bold lg:px-4 xl:px-7">
+          <li class="text-lg font-bold md:px-4 lg:px-4 xl:px-7">
             <RouterLink :to="{ name: 'dashboard' }">All Item</RouterLink>
           </li>
           <!-- <RouterLink :to="{ name: 'paketmurah' }">Paket Murah</RouterLink> -->
-          <li class="lg:px-4 xl:px-7">
+          <li class="md:px-4 lg:px-4 xl:px-7">
             <RouterLink :to="{ name: 'paketmurah' }">Paket Murah</RouterLink>
           </li>
 
           <!-- <RouterLink :to="{ name: 'paketlengkap' }">Paket Lengkap</RouterLink> -->
-          <li class="lg:px-4 xl:px-7">
+          <li class="md:px-4 lg:px-4 xl:px-7">
             <RouterLink :to="{ name: 'paketlengkap' }">Paket Lengkap</RouterLink>
           </li>
         </ul>

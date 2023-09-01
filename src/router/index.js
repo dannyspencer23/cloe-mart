@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Dashboard from '@/views/Dashboard.vue'
 import PaketMurah from '@/views/Paketmurah.vue'
 import PaketLengkap from '@/views/Paketlengkap.vue'
@@ -6,19 +6,19 @@ import PaketLengkap from '@/views/Paketlengkap.vue'
 const routes = [
   {
     // alias: '/home',
-    path: '/',
+    path: '/dashboard',
     name: 'dashboard',
     component: Dashboard
   },
   {
     // alias: '/home',
-    path: '/',
+    path: '/paketmurah',
     name: 'paketmurah',
     component: PaketMurah
   },
   {
     // alias: '/home',
-    path: '/',
+    path: '/paketlengkap',
     name: 'paketlengkap',
     component: PaketLengkap
   },
@@ -50,7 +50,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   linkExactActiveClass:
     ' border-b-4 border-yellow-400 transition-all ease duration-[250ms] ease-in-out py-1 font-semibold'
