@@ -1,8 +1,5 @@
 <template>
   <main class="mx-auto max-w-full bg-slate-100">
-    <!-- ! BANNER -->
-    <!-- <Banner></Banner> -->
-
     <!-- @ TITLE  -->
     <section
       class="max-w-desk_max px-10 mx-auto py-9 bg-white flex flex-row items-center justify-between"

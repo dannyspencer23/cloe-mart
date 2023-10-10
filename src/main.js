@@ -10,7 +10,7 @@ import VeeValidatePlugin from './includes/validation'
 import { auth } from './includes/firebase'
 
 // CSS
-// import './assets/main.css'
+import './assets/main.css'
 import './assets/base.css'
 
 import App from './App.vue'

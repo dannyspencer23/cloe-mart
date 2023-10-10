@@ -73,7 +73,54 @@
   </section>
 </template>
 
-<script>
+<!-- USING SCRIP SETUP -->
+<script setup>
+import Carousel from '../components/Carousel.vue'
+
+import { ref, onMounted } from 'vue'
+
+const displayDays = ref(0)
+const displayHours = ref(0)
+const displayMinutes = ref(0)
+const displaySeconds = ref(0)
+
+const formatNum = (num) => (num < 10 ? '0' + num : num)
+
+const _seconds = 1000
+const _minutes = _seconds * 60
+const _hours = _minutes * 60
+const _days = _hours * 24
+
+const showRemaining = () => {
+  const timer = setInterval(() => {
+    const now = new Date()
+    const end = new Date('2023-11-21')
+    const distance = end.getTime() - now.getTime()
+
+    if (distance < 0) {
+      clearInterval(timer)
+      return
+    }
+
+    const days = Math.floor(distance / _days)
+    const hours = Math.floor((distance % _days) / _hours)
+    const minutes = Math.floor((distance % _hours) / _minutes)
+    const seconds = Math.floor((distance % _minutes) / _seconds)
+
+    displayDays.value = formatNum(days)
+    displayHours.value = formatNum(hours)
+    displayMinutes.value = formatNum(minutes)
+    displaySeconds.value = formatNum(seconds)
+  }, 1000)
+}
+
+onMounted(() => {
+  showRemaining()
+})
+</script>
+
+<!-- USING OPTION API -->
+<!-- <script>
 import Carousel from '../components/Carousel.vue'
 export default {
   components: { Carousel },
@@ -124,4 +171,4 @@ export default {
     }
   }
 }
-</script>
+</script> -->

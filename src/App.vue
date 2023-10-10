@@ -4,7 +4,26 @@
   <Auth></Auth>
 </template>
 
-<script>
+<script setup>
+import Header from '@/components/Header.vue'
+import Auth from '@/components/Auth.vue'
+import { auth } from './includes/firebase'
+import { mapWritableState } from 'pinia'
+import { useUserStore } from '@/stores/user'
+import { onMounted } from 'vue'
+
+const userStore = useUserStore()
+// const { userLoggedIn } = mapWritableState(useUserStore, ['userLoggedIn'])
+
+onMounted(() => {
+  if (auth.currentUser) {
+    userStore.userLoggedIn = true
+  }
+})
+</script>
+
+<!-- USING OPTION API -->
+<!-- <script>
 import Header from '@/components/Header.vue'
 import Auth from '@/components/Auth.vue'
 import { mapWritableState } from 'pinia'
@@ -22,8 +41,4 @@ export default {
     }
   }
 }
-</script>
-
-<!-- <script setup>
-//  i don't know how to write or translate the code form script to script setup because i need "created(lifecycle hook)", and according to documentation when u use script setup then composition API running around beforeMount and Mounted. However, when u use option API then running around beforeCreate and Created
 </script> -->

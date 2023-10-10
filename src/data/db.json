@@ -2,7 +2,8 @@
   "allItems": [
     {
       "id": "1",
-      "title": "sania",
+      "title": "beras sania",
+      "nama": "sania",
       "kelompok": "beras",
       "deskripsi": "Beras pulen premium, teknologi jepang diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami.",
       "volume": "5-kg",
@@ -14,7 +15,8 @@
     },
     {
       "id": "2",
-      "title": "keluarga bijak",
+      "title": "beras keluarga bijak",
+      "nama": "keluarga bijak",
       "kelompok": "beras",
       "deskripsi": "Beras Keluarga bijak adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": "5-kg",
@@ -26,7 +28,8 @@
     },
     {
       "id": "3",
-      "title": "anak raja",
+      "title": "beras anak raja",
+      "nama": "anak raja",
       "kelompok": "beras",
       "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan 3kg. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": "3-kg",
@@ -38,7 +41,8 @@
     },
     {
       "id": "4",
-      "title": "anak raja",
+      "title": "beras anak raja",
+      "nama": "anak raja",
       "kelompok": "beras",
       "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan -. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": "5-kg",
@@ -50,7 +54,8 @@
     },
     {
       "id": "5",
-      "title": "anak raja",
+      "title": "beras anak raja",
+      "nama": "anak raja",
       "kelompok": "beras",
       "deskripsi": "Beras Anak Raja adlah beras premium dan beras khusus kebanggaan nusantara dengan kualitas terbaik hadir dengan kemasan 10kg. beras Anak Raja adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": " 10-kg",
@@ -62,7 +67,8 @@
     },
     {
       "id": "6",
-      "title": "setra wangi",
+      "title": "beras setra wangi",
+      "nama": "setra wangi",
       "kelompok": "beras",
       "deskripsi": "Beras Setra wangi adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": "5-kg",
@@ -74,7 +80,8 @@
     },
     {
       "id": "7",
-      "title": "setra wangi",
+      "title": "beras setra wangi",
+      "nama": "setra wangi",
       "kelompok": "beras",
       "deskripsi": "FS Setra wangi adalah beras Jenis Short Grain dengan Karakteristik Pulen dan Wangi Pandan Alami yang berasal dari padi berkualitas (bukan beras oplosan), serta diproses secara higienis Dengan teknologi modern dan tidak menggunakan pemutih atau pengawet, sehingga menghasilkan nasi yang pulen Beraroma Pandan Alami. Aman dikonsumsi untuk seluruh anggota keluarga Anda. Beras FS juga telah di sertifikasi dengan Jaminan Halal, Sertifikat PSAT KEMTAN (Pangan Segar Asal Tumbuhan) dan SNI.",
       "volume": "10-kg",
@@ -86,7 +93,8 @@
     },
     {
       "id": "8",
-      "title": "premium gulaku WHITE pack",
+      "title": "gulaku premium WHITE pack",
+      "nama": "premium gulaku WHITE pack",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "1-kg",
@@ -98,7 +106,8 @@
     },
     {
       "id": "9",
-      "title": "premium gulaku GOLD pack",
+      "title": "gulaku premium GOLD pack",
+      "nama": "premium gulaku GOLD pack",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "1-kg",
@@ -110,7 +119,8 @@
     },
     {
       "id": "10",
-      "title": "manis kita",
+      "title": "gula manis kita",
+      "nama": "manis kita",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "1-kg",
@@ -122,7 +132,8 @@
     },
     {
       "id": "11",
-      "title": "tropicana slim classic (100sc)",
+      "title": "gula tropicana slim",
+      "nama": "tropicana slim classic (100sc)",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "250-g",
@@ -134,7 +145,8 @@
     },
     {
       "id": "12",
-      "title": "halus rose brand",
+      "title": "gula rose brand",
+      "nama": "rose brand gula halus",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "500-g",
@@ -146,7 +158,8 @@
     },
     {
       "id": "13",
-      "title": "KISS",
+      "title": "gula kiss",
+      "nama": "KISS",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli menggunakan teknologi tinggi dengan hasil gula putih yang bersih, putih dan halus.",
       "volume": "500-g",
@@ -158,7 +171,8 @@
     },
     {
       "id": "14",
-      "title": "aren bubuk HAAN palm-sugar",
+      "title": "gula aren HAAN",
+      "nama": "aren bubuk HAAN palm-sugar",
       "kelompok": "gula",
       "deskripsi": "Gula aren manis alami yang diolah menggunakan teknologi tinggi dengan tektsur bubuk dengan hasil yang terbaik.",
       "volume": "250-g",
@@ -170,7 +184,8 @@
     },
     {
       "id": "15",
-      "title": "jawa tropicana slim",
+      "title": "gula jawa tropicana slim",
+      "nama": "tropicana slim gula jawa",
       "kelompok": "gula",
       "deskripsi": "Tropicana slim - Gula jawa diolah dengan teknologi canggih menghasilkan gula yang cocok untuk diet, aman untuk diabetes, preaktis dan nikmat.",
       "volume": "350-ml",
@@ -182,7 +197,8 @@
     },
     {
       "id": "16",
-      "title": "indosugar",
+      "title": "gula indosugar",
+      "nama": "indosugar",
       "kelompok": "gula",
       "deskripsi": "Gula manis alami bersih premium diolah dari tebu asli yang diolah menggunakan teknologi tinggi dengan hasil gula batu yang bersih, putih dan aman untuk dikonsumsi.",
       "volume": "1-kg",
@@ -194,7 +210,8 @@
     },
     {
       "id": "17",
-      "title": "Rose brand",
+      "title": "minyak rose brand",
+      "nama": "Rose brand",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng Rose Brand adalah minyak goreng sawit berwarna kuning emas yang dapat membuat masakan menjadi lebih gurih dan lezat.",
       "volume": "1-ltr",
@@ -206,7 +223,8 @@
     },
     {
       "id": "18",
-      "title": "Sania",
+      "title": "minyak sania",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -219,6 +237,7 @@
     {
       "id": "19",
       "title": "Barco",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -231,6 +250,7 @@
     {
       "id": "20",
       "title": "Bimoli",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -243,6 +263,7 @@
     {
       "id": "21",
       "title": "Filma",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -255,6 +276,7 @@
     {
       "id": "22",
       "title": "Fortune",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -267,6 +289,7 @@
     {
       "id": "23",
       "title": "Forvita",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "500-ml",
@@ -279,6 +302,7 @@
     {
       "id": "24",
       "title": "sedap",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -291,6 +315,7 @@
     {
       "id": "25",
       "title": "sunco",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "1-ltr",
@@ -303,6 +328,7 @@
     {
       "id": "27",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -315,6 +341,7 @@
     {
       "id": "28",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -327,6 +354,7 @@
     {
       "id": "29",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -339,6 +367,7 @@
     {
       "id": "30",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -351,6 +380,7 @@
     {
       "id": "31",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -363,6 +393,7 @@
     {
       "id": "32",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -375,6 +406,7 @@
     {
       "id": "33",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -387,6 +419,7 @@
     {
       "id": "34",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -399,6 +432,7 @@
     {
       "id": "35",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
@@ -411,6 +445,7 @@
     {
       "id": "36",
       "title": "tropical",
+      "nama": "sania",
       "kelompok": "minyak goreng",
       "deskripsi": "Minyak goreng premium yang diproses dengan teknologi paling mutakhir, dari bahan kelapa sawit kualitas tinggi, mengandung zat OMEGA-6, OMEGA-9, dan vitamin-E yang baik untuk kesehatan tubuh.",
       "volume": "2-ltr",
