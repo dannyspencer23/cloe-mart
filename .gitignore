@@ -8,6 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+bankTXT
+firebase
 .DS_Store
 dist
 dist-ssr
@@ -28,5 +30,4 @@ coverage
 *.sw?
 
 # 
-.firebase/
-.bankTXT/
+
